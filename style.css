@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: azure;
+    font-family: sans-serif;
+    text-align: center;
+}
+.sec-perfil{
+    margin: 1rem;
+    width: 20rem;
+    border: royalblue;
+    border-width: 5px;
+    text-align: center;
+}
+
+.foto-perfil{
+    margin: 1rem;
+    width: 10rem;
+    border: #ccc solid;
+    border-radius: 10rem;
+}
+
+.sec-name{
+    margin: 0 0 2rem 0;
+}
+
+.name{
+    font-size: 3rem;
+}
+
+.cargo, .habilidade{
+    font-size: 1rem;
+    margin: 0 0 0.85rem;
+}
+
+.sec-btn{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.btn-link{
+    background: aquamarine;
+    border: none;
+    border-radius: 1.28rem;
+    cursor: pointer;
+    display: block;
+    font-size: 2.5rem;
+    height: 4rem;
+    width: 20rem;
+    margin: 2 rem 15%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-link1:hover{
+    background: rgb(187, 187, 211);
+}
+
+.btn-link:active{
+    opacity: 15%;
+    transition: 0.2s;
+}
+
+.rodapé{
+    font-size: 2rem;
+    margin: 5rem 0 0.85rem 0;
+    padding-top: 5rem;
+    text-align: center;
+}
